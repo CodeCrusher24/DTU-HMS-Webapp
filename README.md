@@ -13,7 +13,7 @@ This project is part of a university-level internship to automate hostel operati
 
 - `bhavya-db` → Bhavya
 - `parag-backend-logic` → Parag
-- `ahivyakti-backend-development` → Abhivyakti
+- `abhivyakti-backend-development` → Abhivyakti
 - `chitra-api-development` → Chitra
 - `main` → Final version
 - `lead-merge` → Optional integration branch (by Parag)
