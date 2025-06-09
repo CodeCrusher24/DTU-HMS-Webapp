@@ -4,17 +4,17 @@ This project is part of a university-level internship to automate hostel operati
 
 ## 👨‍👩‍👧‍👦 Team Members
 
-- **Parag (Lead + Backend Developer)** – Hostel allotment automation, fee mgmt, complaints, resources
+- **Parag (Backend Developer)** – Hostel allotment automation, fee mgmt, complaints, resources
 - **Bhavya (Database Designer)** – Creates DB, schemas, views for allocation, attendance, queries
 - **Abhivyakti (Backend Support)** – Works closely with Parag to build & test backend modules
 - **Chitra (API Support)** – Assists in building & testing APIs with backend team
 
 ## 📂 Branches
 
-- `db-setup` → Bhavya
-- `backend-core` → Parag
-- `backend-support1` → Abhivyakti
-- `backend-support2` → Chitra
+- `bhavya-db` → Bhavya
+- `parag-backend-logic` → Parag
+- `ahivyakti-backend-development` → Abhivyakti
+- `chitra-api-development` → Chitra
 - `main` → Final version
 - `lead-merge` → Optional integration branch (by Parag)
 
