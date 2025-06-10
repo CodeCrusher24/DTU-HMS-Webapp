@@ -14,7 +14,7 @@ app.use(helmet()); // Add various security HTTP headers
 
 // --- Routing Setup ---
 // Import your main router from the routes folder
-const mainRoutes = require('./routes/index');
+const mainRoutes = require('./routes/index'); // This will handle all your specific API routes
 
 // Use your main router, prefixing all its routes with '/api'
 // For example, the '/health' route defined in routes/index.js will be accessible at /api/health
@@ -29,6 +29,7 @@ app.use((req, res, next) => {
 
 // --- Server Listening ---
 // Define the port from environment variables or default to 3000
+// We will stick to your .env driven PORT and not Chitra's hardcoded port 4000
 const PORT = process.env.PORT || 3000;
 
 // Start the server
