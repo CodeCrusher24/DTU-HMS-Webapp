@@ -1,0 +1,34 @@
+{
+  "name": "dtu-hms-webapp",
+  "version": "1.0.0",
+  "description": "Backend for DTU Hostel Management System Webapp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeCrusher24/DTU-HMS-Webapp.git"
+  },
+  "keywords": [
+    "DTU",
+    "Hostel",
+    "Management",
+    "System",
+    "Backend"
+  ],
+  "author": "DTU HMS Backend Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeCrusher24/DTU-HMS-Webapp/issues"
+  },
+  "homepage": "https://github.com/CodeCrusher24/DTU-HMS-Webapp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",        
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
