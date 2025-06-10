@@ -5,6 +5,8 @@ const jwt = require('jsonwebtoken'); // You might not strictly need this here if
 
 // Import other route files here
 const authRoutes = require('./authRoutes'); // Import your new authentication routes
+const userRoutes = require('./users');
+const hostelRoutes = require('./hostels');
 const authMiddleware = require('../middleware/authMiddleware'); // Import your new auth middleware
 
 // --- Main API Routes ---
@@ -24,6 +26,9 @@ router.get('/health', authMiddleware, (req, res) => {
 // This means any route defined in authRoutes.js (like /login)
 // will now be accessible under /api/auth/login
 router.use('/auth', authRoutes);
+// Use the new routes
+router.use('/users', userRoutes);      // For user-related APIs (e.g., /api/users)
+router.use('/hostels', hostelRoutes);  // For hostel-related APIs (e.g., /api/hostels)
 
 // Export the main router to be used in server.js
 module.exports = router;
