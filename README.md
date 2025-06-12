@@ -1,3 +1,6 @@
+
+# DTU-HMS-Webapp
+SQL Files which contain the code for internal database of the web app.
 # DTU Hostel Management System 🏠
 
 This project is part of a university-level internship to automate hostel operations for DTU.
@@ -31,3 +34,4 @@ This project is part of a university-level internship to automate hostel operati
 git add .
 git commit -m "Added fee API endpoints"
 git push origin backend-core
+
