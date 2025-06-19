@@ -1,6 +1,4 @@
--- hostel information
-
--- warden information
+-- hostel and warden information
 create table hostel_warden_info(
 	hostel_name varchar(100) primary key,
     warden_name varchar(100) not null,
